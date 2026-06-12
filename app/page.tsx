@@ -29,7 +29,7 @@ import { base } from "wagmi/chains";
 import { vinylTapAbi } from "@/lib/abi";
 import { BASE_ATTRIBUTION_SUFFIX } from "@/lib/wagmi";
 
-const CONTRACT_ADDRESS = "0xc3185c8f243f9ce4cbc987af11c7836c608c76ed" as Address;
+const CONTRACT_ADDRESS = "0xa47577639623aecf00485945f3fba723e6a1de17" as Address;
 const hasContractAddress = CONTRACT_ADDRESS !== "0x0000000000000000000000000000000000000000";
 
 type TapAction = {
