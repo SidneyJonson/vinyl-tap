@@ -15,7 +15,7 @@ Vinyl Tap is a Base Mini App with three onchain actions: `Tap Beat`, `Tap Bass`,
 Before production deployment, replace these placeholders:
 
 - `app/layout.tsx`: `REPLACE_WITH_BASE_DEV_VERIFY_TOKEN`
-- `lib/wagmi.ts`: `BASE_ATTRIBUTION_SUFFIX`, currently `0x`
+- `lib/wagmi.ts`: `BASE_ATTRIBUTION_SUFFIX`, currently the encoded build code for `bc_dofxoaa1`
 - `app/page.tsx`: `CONTRACT_ADDRESS`, currently `0x0000000000000000000000000000000000000000`
 
 The Mini App keeps all visible UI text in English and only exposes friendly transaction states. Raw RPC errors, revert data, environment values, calldata, tokens, and backend configuration are not rendered in the interface.
