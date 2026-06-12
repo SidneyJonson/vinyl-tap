@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #090806;
+  --panel: #161511;
+  --panel-soft: #232018;
+  --ivory: #f4edda;
+  --muted: #b8ad92;
+  --base: #0052ff;
+  --magenta: #ff4ecd;
+  --lime: #c8ff3d;
+  --amber: #ffb84d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--ink);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ivory);
+  background:
+    radial-gradient(circle at 18% 12%, rgba(0, 82, 255, 0.22), transparent 30rem),
+    radial-gradient(circle at 82% 8%, rgba(255, 78, 205, 0.16), transparent 26rem),
+    linear-gradient(135deg, #090806 0%, #14120d 44%, #090806 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@keyframes meter-rise {
+  0%,
+  100% {
+    transform: scaleY(0.36);
+  }
+  50% {
+    transform: scaleY(0.94);
+  }
+}
+
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
