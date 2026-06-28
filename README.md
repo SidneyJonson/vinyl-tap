@@ -86,3 +86,11 @@ dataSuffix: BASE_ATTRIBUTION_SUFFIX
 ## Required Deployment Values
 
 Before deploying to production, review and replace the placeholder values below.
+
+In `app/layout.tsx`, replace:
+
+```text
+REPLACE_WITH_BASE_DEV_VERIFY_TOKEN
+```
+
+In `lib/wagmi.ts`, review:
