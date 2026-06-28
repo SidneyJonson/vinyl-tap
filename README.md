@@ -41,3 +41,13 @@ Raw technical failure details are not displayed in the UI.
 - Viem
 - Tailwind CSS
 - Solidity
+
+## Project Structure
+
+```text
+app/
+  layout.tsx
+  page.tsx
+
+contracts/
+  VinylTap.sol
