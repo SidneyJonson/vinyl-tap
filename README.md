@@ -78,3 +78,11 @@ The frontend exposes three write actions:
 - `Tap Echo` calls `tapEcho()`
 
 Each write call explicitly passes:
+
+```ts
+dataSuffix: BASE_ATTRIBUTION_SUFFIX
+```
+
+## Required Deployment Values
+
+Before deploying to production, review and replace the placeholder values below.
