@@ -51,3 +51,12 @@ app/
 
 contracts/
   VinylTap.sol
+
+lib/
+  abi.ts
+  wagmi.ts
+```
+
+## Contract
+
+The Solidity source is located at:
