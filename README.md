@@ -165,3 +165,13 @@ Vinyl Tap keeps visible messages concise and user-friendly.
 The interface does not render raw RPC errors, revert data, environment values, calldata, or backend configuration details.
 
 This helps keep the app focused on the tap experience rather than low-level implementation output.
+
+## Development Notes
+
+Keep the contract ABI in `lib/abi.ts` aligned with `contracts/VinylTap.sol`.
+
+Update the configured contract address before using the app outside local development.
+
+Review deployment-specific values before publishing a production build.
+
+Keep visible copy in English to match the current app language.
