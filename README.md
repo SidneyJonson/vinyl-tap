@@ -60,3 +60,12 @@ lib/
 ## Contract
 
 The Solidity source is located at:
+
+```text
+contracts/VinylTap.sol
+```
+
+The matching frontend ABI is located at:
+
+```text
+lib/abi.ts
