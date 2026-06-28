@@ -32,3 +32,12 @@ Raw technical failure details are not displayed in the UI.
 - Native Wagmi configuration
 - TypeScript-first Next.js application
 - Tailwind CSS styling
+
+## Stack
+
+- Next.js App Router
+- TypeScript
+- Wagmi native config
+- Viem
+- Tailwind CSS
+- Solidity
