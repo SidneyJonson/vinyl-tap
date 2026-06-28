@@ -148,3 +148,12 @@ npm run build
 ```
 
 ## Usage
+
+1. Start the app locally or deploy it to a supported environment.
+2. Connect through the Mini App flow.
+3. Choose one of the available actions:
+   - `Tap Beat`
+   - `Tap Bass`
+   - `Tap Echo`
+4. Confirm the transaction when prompted.
+5. Wait for the app to show a friendly status update.
