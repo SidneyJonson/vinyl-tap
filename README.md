@@ -157,3 +157,11 @@ npm run build
    - `Tap Echo`
 4. Confirm the transaction when prompted.
 5. Wait for the app to show a friendly status update.
+
+## UI Behavior
+
+Vinyl Tap keeps visible messages concise and user-friendly.
+
+The interface does not render raw RPC errors, revert data, environment values, calldata, or backend configuration details.
+
+This helps keep the app focused on the tap experience rather than low-level implementation output.
