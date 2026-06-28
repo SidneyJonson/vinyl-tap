@@ -112,3 +112,13 @@ CONTRACT_ADDRESS
 ```
 
 The current placeholder value is:
+
+```text
+0x0000000000000000000000000000000000000000
+```
+
+## Local Development
+
+Install dependencies:
+
+```bash
