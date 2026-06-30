@@ -158,3 +158,11 @@ npm run build
 
 1. Start the app locally or deploy it to a supported environment.
 2. Open the Mini App experience.
+3. Choose one of the available actions:
+   - `Tap Beat`
+   - `Tap Bass`
+   - `Tap Echo`
+4. Confirm the transaction when prompted.
+5. Wait for the app to display a friendly status update.
+
+## UI Behavior
