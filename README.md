@@ -100,3 +100,13 @@ BASE_ATTRIBUTION_SUFFIX
 ```
 
 It currently contains the encoded build code for:
+
+```text
+bc_dofxoaa1
+```
+
+In `app/page.tsx`, replace the placeholder contract address:
+
+```text
+CONTRACT_ADDRESS
+```
