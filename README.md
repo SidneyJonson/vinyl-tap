@@ -139,3 +139,11 @@ npm run dev
 ```
 
 Open the local development URL shown in your terminal.
+
+## Verification
+
+Run linting:
+
+```bash
+npm run lint
+```
