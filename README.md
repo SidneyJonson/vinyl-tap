@@ -54,3 +54,13 @@ contracts/
 
 lib/
   abi.ts
+  wagmi.ts
+```
+
+## Contract
+
+The Solidity contract is located at:
+
+```text
+contracts/VinylTap.sol
+```
