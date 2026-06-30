@@ -110,3 +110,13 @@ In `app/page.tsx`, replace the placeholder contract address:
 ```text
 CONTRACT_ADDRESS
 ```
+
+The current placeholder value is:
+
+```text
+0x0000000000000000000000000000000000000000
+```
+
+## Local Development
+
+Clone the repository:
