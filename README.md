@@ -92,3 +92,11 @@ In `app/layout.tsx`, replace:
 ```text
 REPLACE_WITH_BASE_DEV_VERIFY_TOKEN
 ```
+
+In `lib/wagmi.ts`, review:
+
+```text
+BASE_ATTRIBUTION_SUFFIX
+```
+
+It currently contains the encoded build code for:
