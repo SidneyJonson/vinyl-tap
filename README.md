@@ -26,3 +26,13 @@ User-facing messages are written in clear English and avoid exposing low-level t
 
 - Base Mini App experience
 - Three onchain tap actions
+- Friendly transaction status messages
+- English-only visible interface text
+- Frontend ABI paired with the Solidity contract
+- Native Wagmi configuration
+- TypeScript-first Next.js application
+- Tailwind CSS styling
+
+## Tech Stack
+
+- Next.js App Router
