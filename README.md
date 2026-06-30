@@ -147,3 +147,14 @@ Run linting:
 ```bash
 npm run lint
 ```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+## Usage
+
+1. Start the app locally or deploy it to a supported environment.
+2. Open the Mini App experience.
