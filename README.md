@@ -166,3 +166,13 @@ npm run build
 5. Wait for the app to display a friendly status update.
 
 ## UI Behavior
+
+Vinyl Tap keeps visible messages concise, approachable, and user-friendly.
+
+The interface does not render raw RPC errors, revert data, environment values, calldata, or backend configuration details.
+
+This keeps the product experience focused on the three tap actions rather than low-level implementation output.
+
+## Development Notes
+
+Keep the contract ABI in `lib/abi.ts` aligned with `contracts/VinylTap.sol`.
