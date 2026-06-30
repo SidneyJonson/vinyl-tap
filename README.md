@@ -176,3 +176,13 @@ This keeps the product experience focused on the three tap actions rather than l
 ## Development Notes
 
 Keep the contract ABI in `lib/abi.ts` aligned with `contracts/VinylTap.sol`.
+
+Update the configured contract address before using the app outside local development.
+
+Review deployment-specific values before publishing a production build.
+
+Keep visible copy in English to match the current app language.
+
+When changing the contract, update the frontend write interactions so the buttons continue to map to the intended functions.
+
+When changing the interface, preserve the simple action-focused flow that defines the Vinyl Tap experience.
