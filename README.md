@@ -82,3 +82,13 @@ Each write call explicitly passes:
 ```ts
 dataSuffix: BASE_ATTRIBUTION_SUFFIX
 ```
+
+## Required Deployment Values
+
+Before publishing or deploying the app, review the placeholder values below and replace them as needed.
+
+In `app/layout.tsx`, replace:
+
+```text
+REPLACE_WITH_BASE_DEV_VERIFY_TOKEN
+```
