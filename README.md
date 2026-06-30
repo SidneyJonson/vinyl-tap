@@ -17,3 +17,12 @@ https://github.com/SidneyJonson/vinyl-tap.git
 Vinyl Tap presents a friendly, focused interface for calling three contract functions.
 
 Each button in the app maps directly to one onchain action.
+
+The experience is intentionally minimal so the app stays easy to understand and use.
+
+User-facing messages are written in clear English and avoid exposing low-level technical failure details.
+
+## Features
+
+- Base Mini App experience
+- Three onchain tap actions
