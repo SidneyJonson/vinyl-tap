@@ -120,3 +120,13 @@ The current placeholder value is:
 ## Local Development
 
 Clone the repository:
+
+```bash
+git clone https://github.com/SidneyJonson/vinyl-tap.git
+cd vinyl-tap
+```
+
+Install dependencies:
+
+```bash
+npm install
