@@ -45,3 +45,12 @@ User-facing messages are written in clear English and avoid exposing low-level t
 ## Project Structure
 
 ```text
+app/
+  layout.tsx
+  page.tsx
+
+contracts/
+  VinylTap.sol
+
+lib/
+  abi.ts
