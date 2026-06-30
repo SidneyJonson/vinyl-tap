@@ -36,3 +36,12 @@ User-facing messages are written in clear English and avoid exposing low-level t
 ## Tech Stack
 
 - Next.js App Router
+- TypeScript
+- Wagmi native config
+- Viem
+- Tailwind CSS
+- Solidity
+
+## Project Structure
+
+```text
