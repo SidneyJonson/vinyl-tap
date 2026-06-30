@@ -72,3 +72,13 @@ lib/abi.ts
 ```
 
 The frontend exposes three write actions:
+
+- `Tap Beat` calls `tapBeat()`
+- `Tap Bass` calls `tapBass()`
+- `Tap Echo` calls `tapEcho()`
+
+Each write call explicitly passes:
+
+```ts
+dataSuffix: BASE_ATTRIBUTION_SUFFIX
+```
